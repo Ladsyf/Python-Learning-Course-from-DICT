@@ -92,3 +92,106 @@ print(float(4302))
 print(int(3299.35640))
 
 """
+#
+# Classes
+#
+"""
+class Customers:
+    greeting = "Welcome to the coffee Palace!"
+
+c_1 = Customers()
+
+c_1.name = "Samirah"
+c_1.beverage = "Iced caffe latte"
+c_1.food = "Cinnamon roll"
+c_1.total = 225
+
+c_2 = Customers()
+
+c_2.name = "Jerry"
+c_2.beverage = "Caramel macchiato"
+c_2.food = "Glazed doughnot"
+c_2.total = 230
+
+print(Customers.greeting)
+print("What does Samirah want to drink? " + c_1.beverage)
+print("What does Jerry want to eat? " + c_2.food)
+"""
+
+#
+# Arithmetic operators and precedence
+# addition (+); subtraction(-); multiplication(*); division(/)
+# modulus(%); Exponentiation(**); Floor Division(//)
+# Precedence: PEMDAS
+"""
+# Addition
+print(600+35234)
+# Subtraction
+print(2-1)
+# Multiplication
+print(217*6)
+# Division
+print(4/2)
+# Modulus
+print(56329%982)
+# Exponentiation - Exponent
+print(34**5)
+# Floor Division - eliminates remainder, returns whole number(rounded off)
+print(67//12)
+"""
+
+#
+# Comparison and Logical Operators
+# Comparison/Relational:  ==; !=; >; <; >=; <=;
+# Logical: and; or; not - reverses the result
+
+"""sdsd"""
+
+#
+# if else elif
+#
+
+"""
+if 3>2:
+    print("3 is greater than 2")
+elif 4<6:
+    print("4 is less than 6")
+else:
+    print("Last option")
+"""
+
+#
+# Loops and Iterations
+# You can use continue or break
+"""
+for x in "guitar":
+    print(x)
+
+hobbies = ["Playing Guitar", "Singing", "Coding", "Cooking", "Playing Games"]
+
+for x in hobbies:
+    print(x)
+
+# range
+r = range(8)
+for x in r:
+    print(x)
+
+
+#while loop
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+else:
+    print("i is greater than or equal to 10")
+
+#nested
+colors = ["Purple", "Red", "Orange", "Yellow"]
+things = ["Car", "Notebook", "Shirt", "Shoes"]
+
+for x in colors:
+    for y in things:
+        print(x, y)
+
+"""
